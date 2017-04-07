@@ -24,18 +24,7 @@ void menu(int num1, int num2)
 
 }
 
-int validarNumero(int num1 , int num2, int resultado)
-{
-    if(num1==0 || num2==0)
-    {
-        printf("Ingrese valores a A y B para realizar la operacion.\n");
-        return 0;
-    }
-    else
-    {
-        resultado;
-    }
-}
+
 
 
 /** \brief suma dos números pedidos al usuario
@@ -48,17 +37,9 @@ int validarNumero(int num1 , int num2, int resultado)
 
 int sumar(int num1, int num2)
 {
-    int resultado = num1 + num2;
-    /*if(num1==0 || num2==0)
-    {
-        printf("Ingrese valor para A y B para realizar la operacion.");
-        return 0;
-    }
-    else
-    {
-        resultado;
-    }*/
-    validarNumero(num1 , num2, resultado);
+    int resultado;
+
+    resultado= num1 + num2;
     printf("%d + %d = %d\n", num1, num2, resultado);
 
 
